@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatarmio.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -10,41 +10,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              ME <span className="purple"> INTRODUZCO </span>
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Soy Analista de Datos, formada en Data Analytics (Henry), 
+              donde incorporé conocimiento y apliqué herramientas para realizar 
+              procesos ETL, análisis exploratorio y desarrollar dashboards 
+              orientados a la toma de decisiones.
               <br />
               <br />
-              I’m proficient in
+              Tengo conomiento de herramientas como
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                   Excel avanzado, SQL, Python (pandas, numpy, matplotlib, seaborn), 
+                   Power BI y LookerStudio{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
+              — y disfruto mucho también de realizar el diseño de dashboards
+              utilizadno herramientas de diseño, tal como 
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                   Figma{" "}
                 </b>
+              .
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              Busco seguir creciendo profesionalmente como Data Analyst, 
+              desarrollando proyectos que combinen análisis, 
+              visualización y mejora continua.
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">

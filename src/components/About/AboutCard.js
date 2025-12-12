@@ -8,37 +8,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hola a todos! Soy <span className="purple">Valentina Menna</span>{" "}
+            de <span className="purple">Buenos Aires, Argentina</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Soy {" "}
+            <span className="purple">Analista de datos junior.</span> {" "}
+            <span className="purple"> </span><br />Actualmente me encuentro desarrollando proyectos 
+              de manera autónoma, con el objetivo de seguir practicando, 
+              afianzando mis conocimientos y 
+              ampliando mi portfolio profesional. {" "}
+            <span className="purple"></span>{" "}
+            <span className="purple"></span>
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            Vengo del campo de la Bioquímica y actualmente trabajo en un 
+            laboratorio clínico. Esta trayectoria me aporta una base sólida 
+            en análisis crítico, interpretación de datos, rigurosidad y 
+            resolución de problemas, habilidades que fortalecen mi desempeño 
+            como analista y complementan mi formación en Data Analytics.
           </p>
-
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Las desiciones valen más cuando están respaldadas por datos"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card.Body>
     </Card>
