@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Group from "../../Assets/Projects/Group.png";
 
 function Projects() {
   return (
@@ -55,6 +56,17 @@ function Projects() {
               title="True Shot"
               description="Proyecto de análisis deportivo con Python, Kaggle y Looker Studio. Incluye data prep, KPIs, métricas ofensivas, defensivas y probabilidades basadas en rendimiento."
               ghLink="https://github.com/Valenmenna99/TrueShot.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Group}
+              isBlog={false}
+              title="LIA-LAB"
+              description=" Proyecto personal de análisis de datos enfocado en el estudio integral de la actividad de un laboratorio clínico.
+El objetivo es analizar métricas clave como la cantidad de análisis realizados, pacientes atendidos, obras sociales y su variación mes a mes, con el fin de generar insights que ayuden a la toma de decisiones y a la optimización de procesos."
+              ghLink="https://github.com/Valenmenna99/LIA-LAB.git"
             />
           </Col>
         </Row>
