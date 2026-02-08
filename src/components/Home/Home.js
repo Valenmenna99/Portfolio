@@ -4,11 +4,7 @@ import homeLogo from "../../Assets/19199182-Photoroom.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
