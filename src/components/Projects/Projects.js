@@ -8,6 +8,71 @@ import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import Group from "../../Assets/Projects/Group.png";
 
-nada salga jejejej 
+function Projects() {
+  return (
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          Mis trabajos  <strong className="purple">recientes </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Acá muestro algunos proyectos en los que he trabajado recientemente.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Fast Food"
+              description="Diseño y modelado de base de datos relacional con SQL Server. Incluye múltiples esquemas (ventas, productos, personas, sucursales), normalización y consultas para KPIs operativos."
+              ghLink="https://github.com/Valenmenna99/FastFood.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Adventures Works Cycles"
+              description="Dashboard integral en Power BI para Adventure Works Cycles, con modelo de datos relacional, transformación en Power Query y medidas DAX para analizar ventas, ingresos y márgenes. Incluye KPIs clave, comparativos y visualizaciones interactivas que permiten evaluar el rendimiento comercial y detectar oportunidades estratégicas."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Biogenesys"
+              description="Proyecto de Data Analytics. ETL, integración de múltiples fuentes, visualización en Power BI, storytelling y recomendación de mercados estratégicos."
+              ghLink="https://github.com/Valenmenna99/ByogenesisPharm.git"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="True Shot"
+              description="Proyecto de análisis deportivo con Python, Kaggle y Looker Studio. Incluye data prep, KPIs, métricas ofensivas, defensivas y probabilidades basadas en rendimiento."
+              ghLink="https://github.com/Valenmenna99/TrueShot.git"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Group}
+              isBlog={false}
+              title="LIA LAB"
+              description=" Proyecto personal de análisis de datos enfocado en el estudio integral de la actividad de un laboratorio clínico.
+El objetivo es analizar métricas clave como la cantidad de análisis realizados, pacientes atendidos, obras sociales y su variación mes a mes, con el fin de generar insights que ayuden a la toma de decisiones y a la optimización de procesos."
+              ghLink="https://github.com/Valenmenna99/LIA-LAB.git"
+            />
+          </Col>
+        </Row>
+      </Container>
+    </Container>
+  );
+}
 
 export default Projects;
