@@ -31,13 +31,27 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Adventures Works Cycles"
-              description="Dashboard integral en Power BI para Adventure Works Cycles, con modelo de datos relacional, transformación en Power Query y medidas DAX para analizar ventas, ingresos y márgenes. Incluye KPIs clave, comparativos y visualizaciones interactivas que permiten evaluar el rendimiento comercial y detectar oportunidades estratégicas."
-            />
-          </Col>
+  <ProjectCard
+    imgPath={bitsOfCode}
+    isBlog={false}
+    title="Adventure Works Cycles"
+    description={
+      <>
+        Dashboard integral desarrollado en Power BI para Adventure Works Cycles, utilizando un modelo de datos relacional, procesos de transformación en Power Query y medidas DAX para el análisis de ventas, ingresos y márgenes.
+
+        <br />
+        <br />
+
+        Incluye KPIs clave, comparativos y visualizaciones interactivas que permiten evaluar el rendimiento comercial, identificar tendencias y detectar oportunidades estratégicas para la toma de decisiones.
+
+        <br />
+        <br />
+
+        <strong>IA utilizada:</strong> ChatGPT y Copilot para asistencia en la creación de medidas DAX, optimización de visualizaciones y generación de insights de negocio.
+      </>
+    }
+  />
+</Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -50,22 +64,49 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="True Shot"
-              description="Proyecto de análisis deportivo con Python, Kaggle y Looker Studio. Incluye data prep, KPIs, métricas ofensivas, defensivas y probabilidades basadas en rendimiento."
-              ghLink="https://github.com/Valenmenna99/TrueShot.git"
-            />
-          </Col>
+  <ProjectCard
+    imgPath={leaf}
+    isBlog={false}
+    title="True Shot"
+    description={
+      <>
+        Proyecto de análisis deportivo desarrollado con Python, Kaggle y Looker Studio, enfocado en la evaluación del rendimiento de jugadores y equipos a través de métricas ofensivas, defensivas y modelos predictivos.
 
-          <Col md={4} className="project-card">
+        <br />
+        <br />
+
+        Incluye procesos de preparación y transformación de datos, construcción de KPIs y visualizaciones interactivas para facilitar la interpretación de resultados y la toma de decisiones basadas en datos.
+
+        <br />
+        <br />
+
+        <strong>IA utilizada:</strong> Gemini como apoyo en el análisis exploratorio de datos deportivos, interpretación de métricas y validación de hallazgos. También se utilizó para asistir en el desarrollo de la interfaz de predicción y en la construcción del modelo predictivo.
+      </>
+    }
+    ghLink="https://github.com/Valenmenna99/TrueShot.git"
+  />
+</Col>
+
+                    <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Group}
               isBlog={false}
               title="LIA LAB"
-              description=" Proyecto personal de análisis de datos enfocado en el estudio integral de la actividad de un laboratorio clínico.
-El objetivo es analizar métricas clave como la cantidad de análisis realizados, pacientes atendidos, obras sociales y su variación mes a mes, con el fin de generar insights que ayuden a la toma de decisiones y a la optimización de procesos."
+              description={
+                <>
+                  Proyecto personal de análisis de datos enfocado en el estudio integral de la actividad de un laboratorio clínico.
+
+                  <br />
+                  <br />
+
+                  El objetivo es analizar métricas clave como la cantidad de análisis realizados, pacientes atendidos, obras sociales y su variación mes a mes, con el fin de generar insights que ayuden a la toma de decisiones y a la optimización de procesos.
+
+                  <br />
+                  <br />
+
+                  <strong>IA utilizada:</strong> ChatGPT y Cursor para asistencia en la creación y ajuste de scripts de automatización para actualizar datos desde el sistema del laboratorio a Power BI, además de apoyo en la elaboración de conclusiones ejecutivas.
+                </>
+              }
               ghLink="https://github.com/Valenmenna99/LIA-LAB.git"
             />
           </Col>
@@ -76,3 +117,5 @@ El objetivo es analizar métricas clave como la cantidad de análisis realizados
 }
 
 export default Projects;
+
+
