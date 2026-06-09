@@ -63,7 +63,7 @@ function Projects() {
             <ProjectCard
               imgPath={Group}
               isBlog={false}
-              title="LIA-LAB"
+              title="LIA LAB"
               description=" Proyecto personal de análisis de datos enfocado en el estudio integral de la actividad de un laboratorio clínico.
 El objetivo es analizar métricas clave como la cantidad de análisis realizados, pacientes atendidos, obras sociales y su variación mes a mes, con el fin de generar insights que ayuden a la toma de decisiones y a la optimización de procesos."
               ghLink="https://github.com/Valenmenna99/LIA-LAB.git"
